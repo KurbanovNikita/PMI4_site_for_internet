@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+
+div{
+    border: 1px solid #222;
+    margix: 15px;
+    padding: 15px;
+}
+
+.static{
+    position: static;
+    margix: 15px;
+}
+
+.parentOfFloat div{
+    float: right;
+}
+
+.clear{
+    clear: both;
+    float: none !important;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
