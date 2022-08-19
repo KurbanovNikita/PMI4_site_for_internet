@@ -20,13 +20,14 @@
                     <a href="a">Проекты</a>
                     <a href="a" class="activeLink">Обо мне</a>
                     <a href="a">Контакты</a>
+                    <a href="http://164.90.183.202/">Назад</a>
                 </div>
                 <div class="title">
                     Обо мне
                 </div>
                 <div class="contentAboutMe">
                     <div class="myImage">
-                        <img src="photo.png" title="Мое фото"/>
+                        <img src="qYwyzNdyHis.jpg" title="Мое фото"/>
                     </div>
                     <div class="textAboutMe">
                         <div class="fewWords">

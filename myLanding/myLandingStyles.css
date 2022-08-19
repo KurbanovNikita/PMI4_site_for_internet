@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.clearBoth{
+    clear: both;
+}
+
+.section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bgColored{
+    background-color: #2F7986;
+}
+
+.txtColored{
+    color: #fff !important; 
+}
+
+.section .bodyElement{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.section.menu{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.section.menu .bodyElement ul{
+    padding-inline-start: 0px;
+}
+
+.menu{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2F7986;
+}
+
+.menu .listMenu li{
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.menu .listMenu li a{
+    color: #fff;
+
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.main{
+    background-image: url('img/knives.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 88px;
+    padding-top: 100px;
+}
+
+.main .logo, .main .tizer {
+    text-align: center;
+}
+
+.main .logo img{
+    width: 250px;
+}
+
+.main .tizer{
+    margin: 70px 0px;
+}
+
+.main .tizer p{
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFE0;
+    text-shadow: 1px 1px #A0522D;
+    /*background-color: #2F7986;
+    display: inline-block;
+    border: 3px solid #fff;
+border-radius: 10px;*/
+}
+
+.main .slogan p{
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFE0;
+    text-shadow: 1px 1px #A0522D;
+    font-weight: bold;
+}
+
+.pHeader{
+    font-size: 54px;
+    color: #000;
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+    margin: 0px;
+}
+
+.about .tizerAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about .tizerAbout .tAbout{
+    width: 33.333333%;
+    padding: 0px 20px;
+}
+
+.about .tizerAbout .tAbout .AboutHeader{
+    font-size: 54px;
+    padding: 20px 0px;
+    border-bottom: 3px solid #000;
+    margin-bottom: 20px;
+}
+
+.about .knifeAbout{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about .knifeAbout .knfAbout{
+    width: 45%;
+    margin: 0px 20px;
+    background-color: #2F7986;
+    height: 550px;
+}
+
+.about .knifeAbout .knfAbout .imgPlasticKnifes{
+    background-image: url('img/plastic_knifes_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.about .knifeAbout .knfAbout .knfAboutHeader{
+    font-size: 54px;
+    padding: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about .knifeAbout .knfAbout .knfAboutText{
+    color: #fff;
+    line-height: 24px;
+    padding: 0px 45px;
+}
+
+.product .bodyElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product .productElement{
+    width: 25%;
+    padding: 25px;
+}
+
+.product .productElement img{
+    width: 100%;
+    height: 200px;
+}
+
+.product .productElement .name{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.product .productElement .price{
+    text-align: center;
+}
+
+.videos .bodyElement{
+    text-align: center;
+}
+
+.photos .bodyElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photos .photoElement{
+    width: 25%;
+    padding: 10px;
+}
+
+.photos .photoElement img{
+    width: 100%;
+    height: 175px;
+}
+
+.contacForm .bodyElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacForm .map, .contacForm .form{
+    width: 50%;
+    padding: 10px;
+}
+
+.contacForm .form{
+    color: #fff;
+    padding-left: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contacForm .form form{
+    padding-top: 40px;
+}
+
+.contacForm .form label{
+    margin-top: 30px;
+    display: block;
+}
+
+.contacForm .form input{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #A0522D;
+}
+
+.contacForm .form button{
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #A0522D;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+
+.footer .kurbanov{
+    text-align: center;
+}
+
+@media screen and (max-width: 992px){
+    .section .bodyElement{
+        max-width: 750px;
+    }
+    .about .tizerAbout{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .tizerAbout .tAbout{
+        width: 75%;
+    }
+    .about .tizerAbout .tAbout .AboutHeader{
+        text-align: center;
+    }
+
+    .about .knifeAbout{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .knifeAbout .knfAbout{
+        width: 100%;
+        height: 400px;
+        margin: 20px 40px;
+    }
+    .about .knifeAbout .knfAbout .imgPlasticKnifes{
+        height: 400px;
+    }
+
+    .product .bodyElement{
+        justify-content: center;
+        align-items: center;
+    }
+    .product .productElement{
+        width: 50%;
+        padding: 25px;
+    }
+
+    .photos .bodyElement{
+        justify-content: center;
+        align-items: center;
+    }
+    .photos .photoElement{
+        width: 50%;
+        padding: 10px;
+    }
+    .photos .photoElement img{
+        height: 185px;
+    }
+
+    .contacForm .bodyElement{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .section .bodyElement{
+        max-width: none;
+    }
+    .about .tizerAbout{
+        flex-wrap: wrap;
+
+    }
+    .about .tizerAbout .tAbout{
+        width: 90%;
+    }
+
+    .about .knifeAbout{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .knifeAbout .knfAbout{
+        width: 100%;
+        height: 550px;
+        margin: 0px;
+    }
+    .about .knifeAbout .knfAbout .imgPlasticKnifes{
+        height: 550px;
+    }
+
+    .product .productElement img{
+        height: 225px;
+    }
+
+    .contacForm .map, .contacForm .form{
+        width: 100%;
+        padding: 10px;
+    }
+    .contacForm .form input{
+        width: 80%;
+    }
+    .contacForm .form button{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 374px){
+    body{
+        min-width: 282px;
+    }
+
+    .pHeader{
+        font-size: 45px;
+        padding: 30px 50px 0px 30px;
+    }
+
+    .about .tizerAbout .tAbout .AboutHeader{
+        font-size: 45px;
+        padding: 15px 0px;
+        margin-bottom: 15px;
+    }
+
+    .about .knifeAbout .knfAbout .knfAboutHeader{
+        font-size: 45px;
+        padding: 30px;
+    }
+    .about .knifeAbout .knfAbout .knfAboutText{
+        padding: 0px 15px;
+    }
+
+    .product .productElement{
+        width: 85%;
+        padding: 25px;
+    }
+
+    .videos .bodyElement iframe{
+        height: 240px;
+    }
+
+    .photos .photoElement{
+        width: 85%;
+        padding: 10px;
+    }
+    .photos .photoElement img{
+        height: 185px;
+    }
+}

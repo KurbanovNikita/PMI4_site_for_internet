@@ -1,0 +1,101 @@
+body{
+	margin: 0px; /*отступ от других элементов*/
+}
+
+div{
+	border: 1px solid #000;
+	margin: 10px;
+	padding: 30px;
+	text-align: center;
+}
+
+.static{
+	position: static;
+}
+
+.fixed{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #fff;
+}
+
+.parentFloat{
+	border: none;
+	padding: 0px;
+	min-width: 720px;
+}
+
+.parentFloat.First div{
+	margin: 10px;
+	float: left;
+	width: 47.5%;
+	min-height: 80px;
+	text-align: right;
+	box-sizing: border-box;
+}
+
+.parentFloat.First div:first-child{
+	margin-left: 0px;
+}
+
+.parentFloat.First div:last-child{
+	min-height: 0px;
+}
+
+.clear{
+	clear: both;
+	float: none !important;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.relative{
+	position: relative;
+	height: 220px;
+	padding: 0px;
+	display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;     /*Центрирование по вертикали */
+}
+
+.absolute{
+	position: absolute;
+	margin: 10px;
+}
+
+.absolute.block1{
+	top: 10px;
+	left: 10px;
+}
+
+.absolute.block2{
+	top: 10px;
+	right: 10px;
+}
+
+.absolute.block3{
+	bottom: 10px;
+	left: 10px;
+}
+
+.absolute.block4{
+	bottom: 10px;
+	right: 10px;
+}
+
+.parentFloat.Second div{
+	margin: 20px;
+	float: left;
+	width: 15%;
+	box-sizing: border-box;
+}
+
+.parentFloat.Second div:first-child{
+	margin-left: 0px; 
+}
+
+/*.parentFloat.Second div:nth-child(5){
+	margin-right: 0px;
+}*/
